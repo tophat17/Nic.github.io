@@ -543,11 +543,11 @@ header h1 a img {
 /**Bot block**/
 
 .bottom_block {
-    background-color: #ddd;
+    background-color: #ffbdda;
     color: #000;
-    font-size: 20px;
-    line-height: 35px;
-    padding: 15px 0 16px;
+    font-size: 12px;
+    line-height: 25px;
+    padding: 8px 0 8px;
 }
 
 .bottom_block .fa {

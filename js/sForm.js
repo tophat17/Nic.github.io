@@ -106,6 +106,6 @@
 $(window).load(function(){
 	$('#newsletter').sForm({			
 		ownerEmail:'gmivanchikov@gmail.com'
-		,sitename:'sitename.link'
+		,sitename:'BB.tk'
 	})
 })

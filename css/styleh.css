@@ -72,7 +72,7 @@ img {
 
 
 h1, h2, h3, h4, h5, h6 {
-    color: #dd6d8c;
+    color: #FF8C00;
     font-weight: bold;
 
     text-align: center;
@@ -442,7 +442,7 @@ header h1 a img {
     text-align: center;
     width: 80px;
     height: 80px;
-    background-color: #dd6d8c;
+    background-color: #FF8C00;
     border-radius: 500px;
     display: block;
     float: left;
@@ -564,7 +564,7 @@ header h1 a img {
 /**Map**/
 
 .color1 {
-    color: #dd6d8c;
+    color: #FF8C00;
 }
 
 .color1 a:hover, a.color1:hover {
@@ -654,7 +654,7 @@ footer {
 
 .footer_socials .fa {
     border-radius: 500px;
-    background-color: #dd6d8c;
+    background-color: #FF8C00;
     color: #fff;
     width: 60px;
     height: 60px;
@@ -696,7 +696,7 @@ footer {
     border: none;
     text-indent: -999px;
     z-index: 20;
-    background: url(../images/totop.png) no-repeat left 0;
+    
     transition: 0s ease;
     -o-transition: 0s ease;
     -webkit-transition: 0s ease;

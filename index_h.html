@@ -63,14 +63,32 @@
  			 height: 100%;
 			}
 		</style>
--->
-<audio autoplay>
-  <source src="images/miniHaloween/Halloween_Theme.mp3"
-  loop="loop" type="audio/mpeg">
-</audio>
-		
+-->		
+
+	
+	<audio id="myAudio">
+  		<source src="images/miniHaloween/Halloween_Theme.mp3" type="audio/mpeg">
+	</audio>
+	
+	<style>
+	.button {
+		background-color: #ffa500;
+		border: #FFFFFF;
+/*		border: 2px;*/
+/*		border-style: solid;*/
+/*		padding: 0px 0px 0px;*/
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+	}
+	</style>
+
 	</head>
 	<body class="bg cursor" id="top">
+
 <!--==============================header=================================-->
 		<header>
 			<div id="stuck_container">
@@ -90,6 +108,8 @@
 										<li><a href="index.html">  🅱️ic pics </a></li>
 										<li><a href="index-2.html">🅱️ic's 🅱️io </a></li>
 										<li><a href="index-3.html">🅱️log </a></li>
+										<li><a href="index_h.html">Sp00py 🅱️ic</a></li>
+										<li><button class="button" onclick="togglePlay()">Toggle Sound</button></li>
 									</ul>
 								</nav>
 								<div class="clear"></div>
@@ -99,6 +119,25 @@
 				</div>
 			</div>
 		</header>
+		
+		<script>
+		var myAudio = document.getElementById("myAudio");
+		var isPlaying = false;
+
+		function togglePlay() {
+		  if (isPlaying) {
+			myAudio.pause()
+		  } else {
+			myAudio.play();
+		  }
+		};
+		myAudio.onplaying = function() {
+		  isPlaying = true;
+		};
+		myAudio.onpause = function() {
+		  isPlaying = false;
+		};
+		</script>
 <!--		<div class="main">-->
 <!--=====================Content======================-->
 			<section class="content cont_pad1">

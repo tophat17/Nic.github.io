@@ -113,7 +113,7 @@ h3 {
 }
 
 h3:after {
-    background-color: #fff;
+    background-color: #ffae19;
     width: 263px;
     bottom: 0;
     left: 50%;
@@ -122,6 +122,7 @@ h3:after {
     position: absolute;
     display: block;
     height: 1px;
+	
 }
 
 .page1 h3 {
@@ -489,7 +490,7 @@ header h1 a img {
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: #FFA12B;
+    background-color: #f49e00;
     color: #000000;
     font: 300 30px/35px 'BenchNine', 'sans-serif';
     padding: 3px 0 8px 30px;

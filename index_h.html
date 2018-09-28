@@ -85,7 +85,24 @@
 		cursor: pointer;
 	}
 	</style>
-
+	
+	        <style>
+           
+            .bird {width: 300px;height: 300px; animation-delay: 5s;
+                     animation: move 10s linear infinite; }
+            
+            @keyframes move{
+                
+                0%{
+                    transform:translate(-2000px);
+                }
+                
+                100%{
+                    transform:translate(2000px);
+                }
+            }
+        </style>
+	
 	</head>
 	<body class="bg cursor" id="top">
 
@@ -109,7 +126,7 @@
 										<li><a href="index-2.html">🅱️ic's 🅱️io </a></li>
 										<li><a href="index-3.html">🅱️log </a></li>
 										<li><a href="index_h.html">Sp00py 🅱️ic</a></li>
-										<li><button class="button" onclick="togglePlay()">Toggle Sound</button></li>
+										<li><button class="button" onclick="togglePlay()">Toggle Music</button></li>
 									</ul>
 								</nav>
 								<div class="clear"></div>
@@ -138,18 +155,49 @@
 		  isPlaying = false;
 		};
 		</script>
-<!--		<div class="main">-->
+		
+		
+		
+<!--
+		<script>
+		mySounds = ['images/spooks/ghost1.mp3', 'images/spooks/ghost2.mp3']
+		function randomSound() {
+			var index = Math.floor(Math.random() * 1000) % mySounds.length;
+			var id = mySounds[index];
+			var audioElement = document.getElementById(test);
+			audioElement.play();
+		}
+		</script>
+-->
+<button id="test" onclick="playRandomSound()" class="button">......test......</button>
+
+	<script>
+//This will play a random sound
+function playRandomSound(){
+
+      //An array to house all of the URLs of your sounds
+      var sounds = [ "images/spooks/ghost2.mp3"",
+                     "images/spooks/ghost1.mp3""];
+      
+      //This line will select a random sound to play out of your provided URLS
+      var soundFile = sounds[Math.floor(Math.random()*sounds.length)];
+      
+      //Find the player element that you created and generate an embed file to play the sound within it
+      document.getElementById("test").innerHTML="<embed src=\""+soundfile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+    </script>
 <!--=====================Content======================-->
+		<img class="bird" src="images/spooks/bird_fixed.gif">
+		
 			<section class="content cont_pad1">
 				<div class="container"><div class="ic"></div>
 					<div class="gallery gall__1">
 						<div class="row">
 							<div class="grid_12">
-								<h3>🅱️icholas's 🅱️ics</h3>
+								<h3>🅱️icholas's Sp00ks</h3>
 							</div>
 							<div class="clear"></div>
 							<div class="grid_4">
-								<a href="images/mini photos/full2.jpg" class="gal_item pinkBorder" >
+								<a class="gal_item pinkBorder" >
 									<img src="images/miniHaloween/baybe.jpg" alt="" height="400">
 									<div class="gal_caption">
 										<time datetime="2014-01-01">Spooky 🅱️icholas</time>

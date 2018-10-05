@@ -141,7 +141,7 @@
 		
 		// If the browser does not have support 
 		// for touch, display the arrows
-		if ( !("ontouchstart" in window) ){
+		/*if ( !("ontouchstart" in window) ){
 			overlay.append(prevArrow).append(nextArrow);
 			
 			prevArrow.click(function(e){
@@ -153,7 +153,7 @@
 				e.preventDefault();
 				showNext();
 			});
-		}
+		}*/
 		
 		// Listen for arrow keys
 		$(window).bind('keydown', function(e){

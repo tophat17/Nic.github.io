@@ -10,18 +10,18 @@
 		<link rel="stylesheet" href="css/formh.css">
 		<link rel="stylesheet" href="css/touchTouchh.css">
 		<link rel="stylesheet" href="css/styleh.css">
-		
+
 		<style>
 			.bg {
     		background-image:url("images/miniHaloween/spooky_background.png") ;
   			background-size: 100% 100%;
 				}
 		</style>
-		
+
 	<audio id="myAudio">
   		<source src="images/miniHaloween/Halloween_Theme.mp3" type="audio/mpeg">
 	</audio>
-	
+
 	<style>
 	.button {
 		background-color: #ffa500;
@@ -37,52 +37,15 @@
 		cursor: pointer;
 	}
 	</style>
-	
-	      <style>
-           
-            .bird {width: 250px;height: 250px; position:sticky; left:400;
-                     animation: move 10s linear infinite; z-index: 10; }
-            
-            @keyframes move{
-                
-                0%{
-                    transform:translate(-1000px);
-/*					display:"block";*/
-                }
-                
-                100%{
-                    transform:translate(1000px);
-/*					display:"block"";*/
-                }
-            }
-        </style>
-        
-        <style>
-           
-            .birdbw {width: 250px;height: 250px; position:absolute; left:400;
-                     animation: movebw 10s linear infinite; z-index: 10; }
-            
-            @keyframes movebw{
-                
-                100%{
-                    transform:translate(-1000px);
-/*					display:"block";*/
-                }
-                
-                0%{
-                    transform:translate(2000px);
-/*					display:"block"";*/
-                }
-            }
-        </style>
-        
+
+
 	</head>
 	<body class="bg cursor" id="top">
 
 <!--==============================header=================================-->
 		<header>
 			<div id="stuck_container">
-				<div class="container">	
+				<div class="container">
 					<div class="row">
 						<div class="grid_12">
 							<h1>
@@ -93,12 +56,16 @@
 							<div class="menu_block ">
 								<nav class="horizontal-nav full-width horizontalNav-notprocessed">
 									<ul class="sf-menu">
-										
+
+										<style>
+										a.spookycolor:hover, a.spookycolor:active {color: darkorange !important;}
+										</style>
+
 					   		<hidden>	<li  class="current"><a href="index-1.html"></a></li>  </hidden>
 										<li><a href="index.html">  🅱️ic pics </a></li>
 										<li><a href="index-2.html">🅱️ic's 🅱️io </a></li>
 										<li><a href="index-3.html">🅱️log </a></li>
-										<li><a href="index_h.html">Sp00py 🅱️ic</a></li>
+										<li><a class="spookycolor" href="index_h.html">Sp00py 🅱️ic</a></li>
 										<li><button class="button" onclick="togglePlay()">Toggle Music</button></li>
 									</ul>
 								</nav>
@@ -122,17 +89,16 @@
 							</div>
 							<div class="clear"></div>
 							<div class="grid_4">
-							<img class="bird" id="bird" src="images/spooks/bird.gif">
 								<a class="gal_item pinkBorder" >
 									<img src="images/miniHaloween/baybe.jpg" alt="" height="400">
 									<div class="gal_caption">
 										<time datetime="2014-01-01">Spooky 🅱️icholas</time>
 									</div>
-									
+
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div class="grid_4">
 								<a href="images/mini photos/full2.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/bed_nic.png"  height="400">
@@ -142,7 +108,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div class="grid_4">
 								<a href="images/mini photos/cake_nic.png" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/big_nic.png" alt="" height="400">
@@ -152,14 +118,13 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div>
 							</div>
-							
+
 							<div class="grid_12" >
 								<h3></h3>
 							</div>
-							<img class="birdbw" id="birdbw" src="images/spooks/bird_backwards.gif">
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/under_nic.png" class="gal_item pinkBorder">
@@ -170,7 +135,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div class="grid_4">
 								<a href="images/mini photos/gay_nic.png" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/blurry nic.png" alt="" height="400">
@@ -180,7 +145,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div class="grid_4">
 								<a href="images/mini photos/Hot_chocolate.png" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/blurry.jpg" alt="" height="400">
@@ -190,15 +155,15 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 						  <div class="grid_12" >
 								<h3></h3>
 							</div>
-							
+
 							<div class="clear"></div>
 							<div class="grid_4">
-							
-							
+
+
 								<a href="images/mini photos/pax_and_nic.png" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/cake_nic.png" height="400">
 									<div class="gal_caption">
@@ -207,7 +172,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div class="grid_4">
 								<a href="images/mini photos/tub_nic.png" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/car.jpg" alt="" height="400">
@@ -217,7 +182,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div class="grid_4">
 								<a href="images/mini photos/tube_nic.png" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/class.jpg" alt="" height="400">
@@ -227,11 +192,11 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div class="grid_12" >
 								<h3></h3>
 							</div>
-							
+
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/drive.jpg" class="gal_item pinkBorder">
@@ -242,7 +207,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div class="grid_4">
 								<a href="images/mini photos/confused.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/cool.JPG" alt="" height="400">
@@ -252,7 +217,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div class="grid_4">
 								<a href="images/mini photos/blurry.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/drive.jpg" alt="" height="400">
@@ -262,11 +227,11 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 								<div class="grid_12" >
 								<h3></h3>
 							</div>
-							
+
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/mask.jpg" class="gal_item pinkBorder">
@@ -277,7 +242,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/fire.jpg" class="gal_item pinkBorder" >
 									<img src="images/miniHaloween/far.jpg" height="400">
@@ -287,7 +252,7 @@
 									<span  class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/fab.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/fire.jpg" alt="" height="400">
@@ -296,12 +261,12 @@
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
-								
+
 							</div>
 								<div class="grid_12" >
 								<h3></h3>
 							</div>
-							
+
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/mirror.jpg" class="gal_item pinkBorder">
@@ -312,7 +277,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/thoght_the_legs.jpg" class="gal_item pinkBorder" >
 									<img src="images/miniHaloween/food.jpg" height="400">
@@ -322,7 +287,7 @@
 									<span  class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/very_young.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/gay_nic.png" alt="" height="400">
@@ -331,15 +296,15 @@
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
-							</div>		
+							</div>
 						  <div class="clear"></div>
 							<div class="grid_4">
-							
+
 							</div>
 								<div class="grid_12" >
 								<h3></h3>
 							</div>
-							
+
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/fist.jpg" class="gal_item pinkBorder">
@@ -350,7 +315,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/class.jpg" class="gal_item pinkBorder" >
 									<img src="images/miniHaloween/Hot_chocolate.png" height="400">
@@ -360,7 +325,7 @@
 									<span  class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/looking_hard.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/illuminati .png" alt="" height="400">
@@ -369,16 +334,16 @@
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
-							</div>		
+							</div>
 						  <div class="clear"></div>
-							<div 
+							<div
 								class="grid_4">
 							</div>
-							
+
 							<div class="grid_12" >
 								<h3></h3>
 							</div>
-							
+
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/hot.png" class="gal_item pinkBorder">
@@ -389,7 +354,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/yays.png" class="gal_item pinkBorder" >
 									<img src="images/miniHaloween/looking.jpg" height="400">
@@ -399,7 +364,7 @@
 									<span  class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/tape.png" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/looking_hard.jpg" alt="" height="400">
@@ -408,16 +373,16 @@
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
-							</div>		
+							</div>
 						  <div class="clear"></div>
-							<div 
+							<div
 								class="grid_4">
 							</div>
-							
+
 							<div class="grid_12" >
 								<h3></h3>
 							</div>
-							
+
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/tall.jpg" class="gal_item pinkBorder">
@@ -428,7 +393,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/train.jpg" class="gal_item pinkBorder" >
 									<img src="images/miniHaloween/mirror.jpg" height="400">
@@ -438,7 +403,7 @@
 									<span  class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/thicc.png" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/movie.jpg" alt="" height="400">
@@ -447,16 +412,16 @@
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
-							</div>		
+							</div>
 						  <div class="clear"></div>
-							<div 
+							<div
 								class="grid_4">
 							</div>
-							
+
 							<div class="grid_12" >
 								<h3></h3>
 							</div>
-							
+
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/not_so_blurry.jpg" class="gal_item pinkBorder">
@@ -467,7 +432,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/movie.jpg" class="gal_item pinkBorder" >
 									<img src="images/miniHaloween/nic food.png" height="400">
@@ -477,7 +442,7 @@
 									<span  class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/baybe.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/not_so_blurry.jpg" alt="" height="400">
@@ -486,16 +451,16 @@
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
-							</div>		
+							</div>
 						  <div class="clear"></div>
-							<div 
+							<div
 								class="grid_4">
 							</div>
-							
+
 							<div class="grid_12" >
 								<h3></h3>
 							</div>
-							
+
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/cool.JPG" class="gal_item pinkBorder">
@@ -506,7 +471,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/zeb.jpg" class="gal_item pinkBorder" >
 									<img src="images/miniHaloween/room.jpg" height="400">
@@ -516,7 +481,7 @@
 									<span  class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/food.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/spooked.jpg" alt="" height="400">
@@ -525,12 +490,12 @@
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
-							</div>	
-							
+							</div>
+
 							<div class="grid_12" >
 								<h3></h3>
 							</div>
-							
+
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/cool.JPG" class="gal_item pinkBorder">
@@ -541,7 +506,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/zeb.jpg" class="gal_item pinkBorder" >
 									<img src="images/miniHaloween/tape.png" height="400">
@@ -551,7 +516,7 @@
 									<span  class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/food.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/the_bois.jpg" alt="" height="400">
@@ -560,12 +525,12 @@
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
-							</div>		
-							
+							</div>
+
 							<div class="grid_12" >
 								<h3></h3>
 							</div>
-							
+
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/cool.JPG" class="gal_item pinkBorder">
@@ -576,7 +541,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/zeb.jpg" class="gal_item pinkBorder" >
 									<img src="images/miniHaloween/thoght_the_legs.jpg" height="400">
@@ -586,7 +551,7 @@
 									<span  class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/food.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/too_close.jpg" alt="" height="400">
@@ -595,12 +560,12 @@
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
-							</div>		
-							
+							</div>
+
 							<div class="grid_12" >
 								<h3></h3>
 							</div>
-							
+
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/cool.JPG" class="gal_item pinkBorder">
@@ -611,7 +576,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/zeb.jpg" class="gal_item pinkBorder" >
 									<img src="images/miniHaloween/triangle.jpeg" height="400">
@@ -621,7 +586,7 @@
 									<span  class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/food.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/tub_nic.png" alt="" height="400">
@@ -630,12 +595,12 @@
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
-							</div>		
+							</div>
 
 							<div class="grid_12" >
 								<h3></h3>
 							</div>
-							
+
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/cool.JPG" class="gal_item pinkBorder">
@@ -646,7 +611,7 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/zeb.jpg" class="gal_item pinkBorder" >
 									<img src="images/miniHaloween/very_young.jpg" height="400">
@@ -656,7 +621,7 @@
 									<span  class="gal_magnify"></span>
 								</a>
 							</div>
-							
+
 							<div  class="grid_4">
 								<a href="images/mini photos/food.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/yays.png" alt="" height="400">
@@ -665,8 +630,8 @@
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
-							</div>		
-							
+							</div>
+
 						  <div class="clear"></div>
 							<div class="grid_4">
 							</div>
@@ -707,26 +672,8 @@
 				</div>
 			</div>
 		</footer>
-		
-		
-		<script>
-			let bird = document.getElementById("bird");
-//			bird.style.animationDelay= 100 + "s";	
-			setInterval(function(){bird.style.animationDelay= rnd(1, 10) + "s"}, 10000);
-			bird.style.display = "none";
-			console.log(bird.style.animationDelay);
-			console.log(rnd(1, 10)+"s");
-			setTimeout(function(){bird.style.display="block";}, 3000);
-		
-			
-		    
-			function rnd(n, m){
-				return n + Math.floor((m-n+1)*Math.random());
-			}
-			for(let i = 0; i <20; i++)
-				console.log(rnd(1, 10));
-		</script>
-	
+
+
 		<script src="h_js/jquery.js"></script>
 		<script src="h_js/jquery-migrate-1.1.1.js"></script>
 		<script src="h_js/script.js"></script>
@@ -737,8 +684,8 @@
 		<script src="h_js/tmStickUp.js"></script>
 		<script src="h_js/jquery.ui.totop.js"></script>
 		<script src="h_js/touchTouch.jquery.js"></script>
-		<script src="h_js/sForm.js"></script>	
-		
+		<script src="h_js/sForm.js"></script>
+
 		<script>
 			$(document).ready(function(){
 				$().UItoTop({ easingType: 'easeOutQuart' });
@@ -746,7 +693,7 @@
 				$('.gallery a.gal_item').touchTouch();
 			});
 		</script>
-		
+
 		<script>
 			var myAudio = document.getElementById("myAudio");
 			var isPlaying = false;
@@ -765,8 +712,8 @@
 			  isPlaying = false;
 			};
 		</script>
-		
 
-		
+
+
 	</body>
 </html>

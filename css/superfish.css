@@ -74,7 +74,7 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	color: #dd6d8c;
 }
 
-.sf-menu>li.sfHover>a:after, .sf-menu>li.current>a:after, .sf-menu>li>a:hover:after {
+/*.sf-menu>li.sfHover>a:after, .sf-menu>li.current>a:after, .sf-menu>li>a:hover:after {
 	border-top-color: #dd6d8d;
 }
 

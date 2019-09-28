@@ -74,14 +74,14 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	color: #FF8C00;
 }
 
-.sf-menu>li.sfHover>a:after, .sf-menu>li.current>a:after, .sf-menu>li>a:hover:after {
+/*.sf-menu>li.sfHover>a:after, .sf-menu>li.current>a:after, .sf-menu>li>a:hover:after {
 	border-top-color: #FFA500;
 }
 
 
 
 
-/*.sf-menu>li>a.sf-with-ul:after {
+.sf-menu>li>a.sf-with-ul:after {
 	position: absolute;
 	content: '';
 	left: 50%;

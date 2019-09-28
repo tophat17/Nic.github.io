@@ -18,9 +18,14 @@
 				}
 		</style>
 
+	<audio id="onclickPlayMusic">
+			<source src="images/miniHaloween/Halloween_Theme.mp3" type="audio/mpeg">
+	</audio>
+
 	<audio id="myAudio">
   		<source src="images/miniHaloween/Halloween_Theme.mp3" type="audio/mpeg">
 	</audio>
+
 
 	<style>
 	.button {
@@ -77,11 +82,11 @@
 			</div>
 		</header>
 
-<!--<button id="test" onclick="playRandomSound()" class="button">......test......</button>-->
 
 <!--=====================Content======================-->
 			<section class="content cont_pad1">
-				<div class="container"><div class="ic"></div>
+				<div class="container" onclick="playMusic()"><div class="ic"></div>
+
 					<div class="gallery gall__1">
 						<div class="row">
 							<div class="grid_12">
@@ -693,6 +698,27 @@
 				$('.gallery a.gal_item').touchTouch();
 			});
 		</script>
+
+
+		<script>
+			var onclickPlayMusic = document.getElementById("myAudio");
+			var onclickPlayMusicPlay = false;
+
+			function playMusic() {
+			  if (onclickPlayMusicPlay) {
+				onclickPlayMusic.play()
+			  } else {
+				onclickPlayMusic.play();
+			  }
+			};
+			onclickPlayMusic.onplaying = function() {
+			  onclickPlayMusicPlay = true;
+			};
+			onclickPlayMusic.onpause = function() {
+			  onclickPlayMusicPlay = false;
+			};
+		</script>
+
 
 		<script>
 			var myAudio = document.getElementById("myAudio");

@@ -27,9 +27,6 @@
 	.button {
 		background-color: #ffa500;
 		border: #FFFFFF;
-/*		border: 2px;*/
-/*		border-style: solid;*/
-/*		padding: 0px 0px 0px;*/
 		text-align: center;
 		text-decoration: none;
 		display: inline-block;
@@ -37,6 +34,43 @@
 		margin: 4px 2px;
 		cursor: pointer;
 	}
+	</style>
+		
+	<!-- haloween style sheets -->
+	<style>
+		.fog-img {
+		  position: fixed;
+		  height: 200vh;
+		  width: 300vw;
+		  z-index: 2;
+		}
+
+		.fog-img-first {
+		  background: url("images/fog/fog-1.png");
+		  background-repeat: repeat-x;
+		  background-size: contain;
+		  background-position: center;
+		  animation: fog 80s linear infinite;
+		}
+
+		.fog-img-second {
+		  background: url("images/fog/fog-2.png");
+		  background-repeat: repeat-x;
+		  background-size: contain;
+		  background-position: center;
+		  animation: fog 40s linear infinite;
+		}
+
+		@keyframes fog {
+		  0% {
+			transform: translate3d(-50vw, 0, 0);
+		  }
+
+		  100% {
+			transform: translate3d(-200vw, 0, 0);
+		  }
+		}
+
 	</style>
 
 
@@ -80,9 +114,11 @@
 
 
 <!--=====================Content======================-->
+		   	<div class="fog-img fog-img-first"></div>
+     		<div class="fog-img fog-img-second"></div>
+		
 			<section class="content cont_pad1">
 				<div class="container" onclick="playMusic()"><div class="ic"></div>
-
 					<div class="gallery gall__1">
 						<div class="row">
 							<div class="grid_12">
@@ -168,7 +204,7 @@
 								<a href="images/mini photos/pax_and_nic.png" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/cake_nic.png" height="400">
 									<div class="gal_caption">
-										<time datetime="2014-01-01">Ominous 🅱�icholas</time>
+										<time datetime="2014-01-01">Ominous 🅱icholas</time>
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
@@ -197,13 +233,15 @@
 							<div class="grid_12" >
 								<h3></h3>
 							</div>
+							
+							
 
 							<div class="clear"></div>
 							<div class="grid_4">
 								<a href="images/mini photos/drive.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/confused.jpg" height="400">
 									<div class="gal_caption">
-										<time datetime="2014-01-01">Supernatural 🅱️icholas</time>
+										<time datetime="2014-01-01">Sub Humen 🅱️icholas</time>
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
@@ -258,7 +296,7 @@
 								<a href="images/mini photos/fab.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/fire.jpg" alt="" height="400">
 									<div class="gal_caption">
-										<time datetime="2014-01-01">Bloodcurdling 🅱️icholas</time>
+										<time datetime="2014-01-01">Blood curdling 🅱️icholas</time>
 									</div>
 									<span class="gal_magnify"></span>
 								</a>
@@ -288,7 +326,7 @@
 									<span  class="gal_magnify"></span>
 								</a>
 							</div>
-
+							
 							<div  class="grid_4">
 								<a href="images/mini photos/very_young.jpg" class="gal_item pinkBorder">
 									<img src="images/miniHaloween/gay_nic.png" alt="" height="400">
@@ -298,6 +336,8 @@
 									<span class="gal_magnify"></span>
 								</a>
 							</div>
+							
+
 						  <div class="clear"></div>
 							<div class="grid_4">
 
